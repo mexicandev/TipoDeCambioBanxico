@@ -40,7 +40,7 @@ namespace TipoDeCambio
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(109, 84);
+            this.button1.Location = new System.Drawing.Point(42, 45);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 51);
             this.button1.TabIndex = 0;
@@ -51,7 +51,7 @@ namespace TipoDeCambio
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(384, 70);
+            this.label1.Location = new System.Drawing.Point(293, 64);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
@@ -61,7 +61,7 @@ namespace TipoDeCambio
             // 
             this.lblDolares.AutoSize = true;
             this.lblDolares.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDolares.Location = new System.Drawing.Point(309, 68);
+            this.lblDolares.Location = new System.Drawing.Point(218, 62);
             this.lblDolares.Name = "lblDolares";
             this.lblDolares.Size = new System.Drawing.Size(69, 17);
             this.lblDolares.TabIndex = 2;
@@ -71,7 +71,7 @@ namespace TipoDeCambio
             // 
             this.lbleuros.AutoSize = true;
             this.lbleuros.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbleuros.Location = new System.Drawing.Point(309, 103);
+            this.lbleuros.Location = new System.Drawing.Point(218, 97);
             this.lbleuros.Name = "lbleuros";
             this.lbleuros.Size = new System.Drawing.Size(55, 17);
             this.lbleuros.TabIndex = 3;
@@ -80,7 +80,7 @@ namespace TipoDeCambio
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(384, 105);
+            this.label2.Location = new System.Drawing.Point(293, 99);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 4;
@@ -90,7 +90,7 @@ namespace TipoDeCambio
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(215, 9);
+            this.label3.Location = new System.Drawing.Point(12, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(387, 24);
             this.label3.TabIndex = 5;
@@ -98,7 +98,7 @@ namespace TipoDeCambio
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(109, 142);
+            this.button2.Location = new System.Drawing.Point(42, 103);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 55);
             this.button2.TabIndex = 6;
@@ -110,7 +110,7 @@ namespace TipoDeCambio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(455, 171);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
