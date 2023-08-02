@@ -40,6 +40,7 @@ namespace TipoDeCambio
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(42, 45);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 51);
@@ -100,6 +101,7 @@ namespace TipoDeCambio
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(42, 103);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 55);
@@ -121,6 +123,7 @@ namespace TipoDeCambio
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
