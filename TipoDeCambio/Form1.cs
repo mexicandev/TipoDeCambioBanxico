@@ -27,5 +27,10 @@ namespace TipoDeCambio
             label1.Text = Banxico.TipoDeCambioFIX(1);
             label2.Text = Banxico.TipoDeCambioFIX(2);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
