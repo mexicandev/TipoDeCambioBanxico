@@ -34,6 +34,7 @@ namespace TipoDeCambio
             this.lblDolares = new System.Windows.Forms.Label();
             this.lbleuros = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -82,11 +83,22 @@ namespace TipoDeCambio
             this.label2.TabIndex = 4;
             this.label2.Text = "label2";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(215, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(349, 24);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Consultar tipo de cambio desde Banxico";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbleuros);
             this.Controls.Add(this.lblDolares);
@@ -107,6 +119,7 @@ namespace TipoDeCambio
         private System.Windows.Forms.Label lblDolares;
         private System.Windows.Forms.Label lbleuros;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
