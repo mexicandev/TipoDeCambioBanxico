@@ -50,7 +50,7 @@ namespace TipoDeCambio
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(361, 68);
+            this.label1.Location = new System.Drawing.Point(384, 70);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
@@ -59,25 +59,27 @@ namespace TipoDeCambio
             // lblDolares
             // 
             this.lblDolares.AutoSize = true;
+            this.lblDolares.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDolares.Location = new System.Drawing.Point(309, 68);
             this.lblDolares.Name = "lblDolares";
-            this.lblDolares.Size = new System.Drawing.Size(46, 13);
+            this.lblDolares.Size = new System.Drawing.Size(69, 17);
             this.lblDolares.TabIndex = 2;
             this.lblDolares.Text = "Dolares:";
             // 
             // lbleuros
             // 
             this.lbleuros.AutoSize = true;
+            this.lbleuros.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbleuros.Location = new System.Drawing.Point(309, 103);
             this.lbleuros.Name = "lbleuros";
-            this.lbleuros.Size = new System.Drawing.Size(37, 13);
+            this.lbleuros.Size = new System.Drawing.Size(55, 17);
             this.lbleuros.TabIndex = 3;
             this.lbleuros.Text = "Euros:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(361, 103);
+            this.label2.Location = new System.Drawing.Point(384, 105);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 4;
@@ -86,10 +88,10 @@ namespace TipoDeCambio
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(215, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(349, 24);
+            this.label3.Size = new System.Drawing.Size(387, 24);
             this.label3.TabIndex = 5;
             this.label3.Text = "Consultar tipo de cambio desde Banxico";
             // 

@@ -67,9 +67,9 @@ namespace TipoDeCambio
         #endregion
 
 
-        public static string TipoDeCambioFIX(int tipo)
+        public static string TipoDeCambioFIX(int tipoDeMoneda)
         {
-            string _result = TipoDeCambioFIX(DateTime.Now.AddDays(-1), tipo);
+            string _result = TipoDeCambioFIX(DateTime.Now.AddDays(-1), tipoDeMoneda);
             return _result;
         }
 
